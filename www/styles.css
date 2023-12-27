@@ -1,0 +1,174 @@
+/*
+  DE LEON, Richard Emmanuel D. 
+  CMSC 150 - AB5L
+  Customize styles for the final project application
+*/
+
+/* Set the background of the entire page*/
+.content-wrapper {
+  background-color: white;
+}
+
+/* For all bozes*/
+.box {
+  margin: 0;
+  box-shadow: none;
+}
+/* Title of app */
+.skin-blue .main-header .logo {
+  color: #6BF9B5;
+  background-color: #13192D;
+}
+/* Header */
+.skin-blue .main-header .navbar {
+  background-color: #13192D;
+}   
+
+/* main sidebar */
+.skin-blue .main-sidebar {
+  background-color: #13192D;
+}
+
+/* overrite successful valuebox */
+.small-box.bg-green {
+  color: #13192D !important;
+  background-color: #6BF9B5 !important;
+  
+}
+
+/* overrite the box headers*/
+.box-header {
+  background-color: #13192D !important;
+
+}
+/* overrite box titles*/
+.box-title{
+  color: white !important;
+}
+
+/* 
+overrite file upload
+overrite slider    
+*/
+.progress-bar, .irs-single{
+  color: #13192D !important;
+  background-color: #6BF9B5 !important;
+}
+
+/* overrite slider color*/
+.irs-handle.single, .irs-bar.irs-bar--single {
+  background-color: #13192D !important;
+}
+
+/* collapsible button, checkbox */
+.btn.btn-box-tool{
+  color: white !important;
+  background-color: #13192D !important;
+}
+
+/* Set the font of the name of the app*/
+.main-header .logo {
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* Set input box of the Polynomial Regression page*/
+.regresInputBox {
+  max-height: 400px;
+}
+
+/* Set the Polynomial Regression plot box*/
+.regresPlotBox {
+  max-height: 345px;
+  background-color: white;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+/* Set a scrolabble class*/
+.scrollable {
+  max-height: 245px;
+  background-color: white;
+  padding: 0;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+/* Set the food choices to be multi columned*/
+.foodChoicesCols { 
+  height: 100%;
+  margin: 15px;
+  column-count: 5; 
+
+}
+
+/* Set the simplex iterations box*/
+.simplexIterations {
+  max-height: 500px;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+/* Set the final tableau*/
+.finalTableu {
+  max-height: 500px;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+/* Select all button*/
+#selectAllDS {
+  color: #13192D;
+  background-color: white;
+  border: 2px solid #13192D;
+}
+
+/* Reset button*/
+#resetDS {
+  color: white;
+  background-color: #E2574C;
+}
+
+/* center the buttons*/
+.dietSolverBtn {
+  display: flex;
+  justify-content: center;
+}
+
+/* Buttons in the dier solver*/
+.dietSolverBtn .btn {
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px 20px;
+}
+
+/* General button*/
+.btn {
+  background-color: white;
+  color: #13192D;
+}
+
+/* The primary button*/
+.primaryBtn {
+  color: white;
+  background-color: #13192D;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+/* Diet solver top box*/
+.dietSolverTopBox {
+  color: white;
+  background-color: #13192D !important;
+}
+
+/* All h2 */
+h2 {
+  margin: 10px;
+}
+
+/* Change checkbox color*/
+input[type="checkbox"] {
+  accent-color: #13192D !important;
+  color: #6BF9B5 !important;
+}
